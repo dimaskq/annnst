@@ -70,9 +70,7 @@ main{
   flex: 1 0 auto;
   text-align: center;
 }
-.container{
-  /* margin: 0 1%; */
-}
+
 /*===================Header===================*/
 .header{
   position: relative;
