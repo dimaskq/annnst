@@ -1,0 +1,15 @@
+<svg width="61" height="65" viewBox="0 0 61 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Moon / 3">
+<circle id="Ellipse 7" cx="29" cy="32.1937" r="29" fill="#1A1923"/>
+<g id="Ellipse 8" filter="url(#filter0_f_168_87)">
+<path d="M30.5 3.19367C37.7935 3.19367 44.7882 6.24901 49.9454 11.6876C55.1027 17.1261 58 24.5024 58 32.1937C58 39.8849 55.1027 47.2612 49.9454 52.6998C44.7882 58.1383 37.7935 61.1937 30.5 61.1937L30.5 32.1937L30.5 3.19367Z" fill="white"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_168_87" x="27.5" y="0.193665" width="33.5" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="1.5" result="effect1_foregroundBlur_168_87"/>
+</filter>
+</defs>
+</svg>

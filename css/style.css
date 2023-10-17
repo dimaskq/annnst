@@ -88,7 +88,6 @@ main{
  height: 40px;
  border-radius: 50%;
  transition: 0.4s;
- color: #fff;
 
 }
 
@@ -102,12 +101,12 @@ main{
  position: absolute;
  width: 32px;
  height: 3px;
- background-color: #fff;
+ background: #9A9A9A;
 
 }
 
 .burger-menu__lines {
- background-color: #fff;
+  background: #9A9A9A;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
@@ -116,14 +115,14 @@ main{
 .burger-menu__lines::before {
  content: "";
  top: -6px;
- background-color: #fff;
+ background: #9A9A9A;
 
 }
 
 .burger-menu__lines::after {
  content: "";
  top: 6px;
- background: #fff;
+ background: #9A9A9A;
 
 }
 .burger-menu_active .burger-menu__button,
@@ -165,7 +164,7 @@ main{
 
 .burger-menu__link {
  padding: 30px;
- font-family: sans-serif;
+ font-family: "FortuneC";
  font-size: 32px;
  text-decoration: none;
  text-transform: uppercase;
@@ -201,7 +200,7 @@ main{
 .about__moon{
   position: absolute;
   left: 0;
-  top: 250px;
+  top: 280px;
 }
 .about__zodiac{
   position: absolute;
@@ -212,10 +211,18 @@ main{
   max-width: 60%;
 }
 .about__top_img{
-  padding: 55.41% 0 0 0;
+  padding: 44% 0 0 0;
   background: #111016;
-  border-radius: 0 0 100px 100px;
-  overflow: hidden;
+  margin: 0 0 -2px 0;
+}
+.about__top_img img{
+  margin: 0 0 -100px 0;
+
+}
+.about__circle{
+  background: #111016;
+  height: 200px;
+  border-radius: 0 0 50% 50%;
 }
 .about__top_info{
   margin: 15px 0 0 0;
@@ -268,6 +275,75 @@ main{
   font-size: 1.25rem;
   font-weight: 400;
   padding: 5px 10px;
+  border-radius: 20px;
+  background: var(--colors-secondary-silver, linear-gradient(127deg, #E8E8E8 -64.8%, #C4C8CA -42.62%, #E8E8E8 -20.43%, #C9CCCE 1.75%, #E8E8E8 23.93%, #CFD1D2 46.11%, #E8E8E8 68.29%, #D3D4D5 90.48%, #E8E8E8 112.66%));
+}
+
+
+
+/* ====================learnMore===================== */
+
+.learnMore__container{
+  border-radius: 200px;
+background: #000;
+margin: 1px 0;
+}
+.learnMore__top_imgs{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 43px 0 0 0;
+}
+/* .learnMore__info{
+  padding: 0 0 100px 0;
+} */
+.learnMore__info_title{
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+}
+.learnMore__info_titleText{
+  color: #FFF;
+  font-family: Vetrino;
+  font-size: 1.375rem;
+  font-weight: 400;
+  max-width: 320px;
+
+}
+.learnMore__info_table{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 16px;
+}
+.learnMore__table_el{
+  display: flex;
+  gap: 16px;
+}
+.learnMore__table_text{
+  display: flex;
+  align-items: center;
+}
+.learnMore__table_text p{
+  color: #FFF;
+  font-family: FortuneC;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+.learnMore__bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 43px 0 50px 0;
+ 
+}
+.learnMore__btn{
+  padding: 10px;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 400;
   border-radius: 20px;
   background: var(--colors-secondary-silver, linear-gradient(127deg, #E8E8E8 -64.8%, #C4C8CA -42.62%, #E8E8E8 -20.43%, #C9CCCE 1.75%, #E8E8E8 23.93%, #CFD1D2 46.11%, #E8E8E8 68.29%, #D3D4D5 90.48%, #E8E8E8 112.66%));
 }
