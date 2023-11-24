@@ -179,7 +179,7 @@ main{
 .burger-menu__link {
  padding: 30px;
  font-family: "FortuneC";
- font-size: 32px;
+ font-size: 1.78rem;
  text-decoration: none;
  text-transform: uppercase;
  letter-spacing: 5px;
@@ -519,6 +519,7 @@ margin: 1px 0;
 }
 .topics__box_content1{
   height: 200px;
+  margin-bottom: 16px;
 }
 .topics__box_price{
   display: flex;
