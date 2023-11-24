@@ -391,8 +391,13 @@ margin: 1px 0;
 }
 
 /*================promotion=================== */
+.promotion{
+  position: relative;
+}
 .promotion__container{
   margin: 16px;
+  position: relative;
+  z-index: 10;
 }
 .promotion__list{
   display: flex;
@@ -417,7 +422,8 @@ margin: 1px 0;
   display: flex;
   flex-direction: column;
   text-align: start;
-
+  position: relative;
+  z-index: 10;
 }
 .pdbottom{
   padding-bottom: 150px;
@@ -694,4 +700,160 @@ border-bottom: none;
   margin: 0 0 40px 0;
   display: flex;
   gap: 10px;
+}
+
+
+/* =================BG ======================= */
+.topics{
+  position: relative;
+  overflow: hidden;
+  z-index: 10;
+}
+.smallStar{
+  position: absolute;
+  z-index: 1;
+  width: 7%;
+}
+.bigStarGrey{
+  position: absolute;
+
+}
+.smallStar1{
+  right: 5%;
+  top: -50%;
+}
+.bigStarGrey1{
+  right: -3%;
+  top: 0%;
+  width: 10%;
+
+}
+.bigStarGrey2{
+  left: 0px;
+  /* top: -0.25%; */
+  width: 8%;
+
+}
+
+.smallStar2{
+  right: 11%;
+  top: 0.7%;
+}
+
+.bigStar{
+  position: absolute;
+}
+.bigStar1{
+  top: 2%;
+  left: 0%;
+}
+.moon{
+  position: absolute;
+}
+.moon1{
+  right: 0%;
+  top: 3.2%;
+}
+.smallStar3{
+  width: 5%;
+  top: 8%;
+  right: 1%;
+}
+.bigStar2{
+  top: 7.8%;
+  width: 8%;
+  left: 3%;
+}
+.bigStarGrey3{
+  top: 10%;
+  left: 2%;
+  width: 10%;
+}
+.bigStarGrey4{
+  width: 7%;
+  top: 10.6%;
+  right: 4%;
+}
+.smallStar4{
+  width: 5%;
+  top: 13%;
+  left: 0;
+}
+.smallStar5{
+  width: 4%;
+  top: 14%;
+  left: 6%;
+}
+.bigStarGrey5{
+  width: 6%;
+  top: 15%;
+  left: 2%;
+}
+.smallStar6{
+  width: 6%;
+  top: 13%;
+  right: 5%;
+}
+.topics__list_title{
+  position: relative;
+  z-index: 10;
+}
+@media (min-width: 408px) {
+  .bigStar2{
+    left: 10%;
+  }
+  .bigStarGrey2{
+    left: 10%;
+  }
+.bigStarGrey3{
+  left: 15%;
+} 
+}
+.sun{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 20%;
+}
+.sun2{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 60%;
+}
+.footer{
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+.sun3{
+  top: 0%;
+  height: 100%;
+}
+.sunimg2{
+  top: 100px;
+}
+.moonblock{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 40%;
+}
+.moonblock2{
+  top: 80%;
+}
+.sunimg1{
+  position: absolute;
+  left: 0%;
+  top: 3.2%;
+}
+.smallStar7{
+  right: 4%;
+  top: 4.5%;
+}
+.sun4{
+  top: 50%;
 }

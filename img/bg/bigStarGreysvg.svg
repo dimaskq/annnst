@@ -1,0 +1,16 @@
+<svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="four pointed star / thin" d="M43.1104 38.4247L43.14 38.86L43.5753 38.8896L74.6263 41L43.5753 43.1104L43.14 43.14L43.1104 43.5753L41 74.6263L38.8896 43.5753L38.86 43.14L38.4247 43.1104L7.3737 41L38.4247 38.8896L38.86 38.86L38.8896 38.4247L41 7.3737L43.1104 38.4247Z" stroke="url(#paint0_linear_13_83)"/>
+<defs>
+<linearGradient id="paint0_linear_13_83" x1="-65.6448" y1="-36.3631" x2="97.5828" y2="85.4024" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8E8E8"/>
+<stop offset="0.125" stop-color="#C4C8CA"/>
+<stop offset="0.25" stop-color="#E8E8E8"/>
+<stop offset="0.375" stop-color="#C9CCCE"/>
+<stop offset="0.5" stop-color="#E8E8E8"/>
+<stop offset="0.625" stop-color="#CFD1D2"/>
+<stop offset="0.75" stop-color="#E8E8E8"/>
+<stop offset="0.875" stop-color="#D3D4D5"/>
+<stop offset="1" stop-color="#E8E8E8"/>
+</linearGradient>
+</defs>
+</svg>
