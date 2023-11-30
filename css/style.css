@@ -1185,9 +1185,6 @@ border-bottom: none;
   font-weight: 400;
   padding: 7px 10px 10px 10px;
 }
-.result1{
-
-}
 .result__title{
   color: #000;
   font-family: 'Vetrino';
@@ -1240,6 +1237,7 @@ border-bottom: none;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
+  overflow: hidden;
 }
 .tests__list{
   text-align: left;
@@ -1256,8 +1254,60 @@ border-bottom: none;
   text-decoration-line: underline;
 }
 .tests__container{
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 10;
+  overflow: hidden;
+}
+/*===================== bg========================== */
+.testMoon{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+.teast01SmallStar1{
+  width: 8%;
+  top: 40px;
+  right: 30px;
+}
+.teast01SmallStar2{
+  width: 10%;
+  top: 180px;
+  left: 7px;
+}.testMoon1{
+  width: 40%;
+  top: 215px;
+  right: 0;
+}
+.testsBigGreyStar1{
+  width: 8%;
+  top: 500px;
+  right: 30px;
+
+}
+.testsBigGreyStar2{
+  top: 625px;
+  width: 5%;
+  left: -2%;
+}
+.testMoon2{
+  margin: 625px 0 0 0;
+}
+.teast01SmallStar1_2{
+  right: 50px;
+}
+.testsBigGreyStar3{
+  top: 140px;
+  right: 90px;
+}
+.testMoon3{
+  margin: 1300px 0 0 0;
+}
+.testSun1{
+  position: absolute;
+  top: 300px;
+  left: 0;
 }
