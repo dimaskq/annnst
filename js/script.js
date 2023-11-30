@@ -68,3 +68,50 @@ for (h = 0; h < acc3.length; h++) {
     }
   });
 }
+
+let herbsBtn = document.querySelector("#herbs__btn");
+let herbsMore = document.querySelector(".herbs__more");
+
+herbsBtn.addEventListener("click", function() {
+  herbsMore.style.display = "block";
+  herbsBtn.style.paddingTop = "-8px";
+  herbsBtn.style.display = "none";
+});
+
+
+function showResult() {
+  var score = calculateScore();
+
+  if (score > 0) {
+    var resultText = "";
+
+    if (score >= 14) {
+      resultText = "Ведення";
+    } else {
+      resultText = "Зцілення";
+    }
+
+    document.getElementById("resultText").innerHTML = resultText;
+    document.getElementById("popupContainer").style.display = "flex";
+}
+}
+
+function closePopup() {
+document.getElementById("popupContainer").style.display = "none";
+}
+
+function calculateScore() {
+var score = 0;
+var inputs = document.querySelectorAll('input[type="radio"]:checked');
+
+if (inputs.length === 8) {
+    inputs.forEach(function(input) {
+    score += parseInt(input.value);
+});
+} else {
+    alert("Будь ласка, виберіть відповідь на кожне питання!");
+    return 0;
+}
+
+return score;
+}

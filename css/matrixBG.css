@@ -1,0 +1,59 @@
+
+.matrix{
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+}
+.matrix__moon{
+    position: absolute;
+    z-index: 9;
+    height: 100%;
+    width: 100%;
+}
+.matrix__sun1{
+    top: 30%;
+}
+.matrixbigStarGrey1{
+width: 8%;
+top: 3%;
+left: 5%;
+}
+.matrixbigStarGrey2{
+    width: 10%;
+    right: -5%;
+    top: 4%;
+}
+.matrixbigStarGrey3{
+    width: 9%;
+    top: 6%;
+    right: 4%;
+}
+.matrixbigStarGrey4{
+    width: 5%;
+    top: 14.5%;
+    left: 0;
+}
+.matrixMoon1{
+    top: 18%;
+    right: 0;
+}
+.matrixSun1{
+    top: 20%;
+    left: 0;
+}
+.matrixbigStarGrey5{
+    width: 4%;
+    top: 29%;
+    right: 5%;
+}
+.matrixbigStarGrey6{
+    top: 20%;
+    right: 9%;
+}
+.matrix__moon2{
+    top: 65%;
+}
+.matrixbigStarGrey7{
+    top: 25%;
+    left: 6%;
+}

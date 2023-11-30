@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваш незвичайний дар</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header test__header"><a href="test.html" class="header__back"><img src="/img/tests/backsvg.svg"></a></header>
+        <main class="main">
+            <div class=" test">
+                <div class="test__container">
+                    <div class="test__info">
+                        <h2 class="test__title">Ваш незвичайний дар</h2>
+                        <div class="test__subtitle">
+                            <p class="test__subtitle_item">Намагайтесь відповідати швидко, довго не роздумуючи.</p>
+                            <p class="test__subtitle_item">Ставитись до тесту серйозно або як до розваги - вирішувати Вам.</p>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="popup-container" id="popupContainer">
+                        <div class="popup-content" id="popupContent">
+                            <form class="popup__close" action="herbs.html" target="_blank">
+                                <button onclick="closePopup()"><img src="img/tests/close.svg"></button>
+                            </form>
+                        <p id="resultText"></p>
+                        </div>
+                    </div>
+
+                    <form id="quizForm">
+                        <div class="quizForm_item">
+                            <h3>Ви народились...</h3>
+                            <label class="custom-checkbox">
+                            <input type="radio" name="age" value="0"> Зимою
+                            </label><br>
+                            <label>
+                            <input type="radio" name="age" value="1"> Весною
+                            </label><br>
+                            <label>
+                            <input type="radio" name="age" value="2"> Літом
+                            </label><br>
+                            <label>
+                            <input type="radio" name="age" value="3"> Осінню
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Минуле, майбутнє, теперішнє, що важливіше?</h3>
+                            <label>
+                            <input type="radio" name="color" value="0"> Миинуле
+                            </label><br>
+                            <label>
+                            <input type="radio" name="color" value="1"> Майбутнє
+                            </label><br>
+                            <label>
+                            <input type="radio" name="color" value="2"> Теперішнє
+                            </label><br>
+                            <label>
+                            <input type="radio" name="color" value="3"> Все однаково важливе
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                        <h3>Самотність чи компанія?</h3>
+                            <label>
+                            <input type="radio" name="animal" value="0"> Самотність
+                            </label><br>
+                            <label>
+                            <input type="radio" name="animal" value="1"> Компанія
+                            </label><br>
+                            <label>
+                            <input type="radio" name="animal" value="2"> За настроєм, станом
+                            </label><br>
+                            <label>
+                            <input type="radio" name="animal" value="3"> Людина завжди самотня
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Любите подорожувати?</h3>
+                            <label>
+                            <input type="radio" name="number" value="0"> Ні
+                            </label><br>
+                            <label>
+                            <input type="radio" name="number" value="1"> Так
+                            </label><br>
+                            <label>
+                            <input type="radio" name="number" value="2"> Все життя кочую
+                            </label><br>
+                            <label>
+                            <input type="radio" name="number" value="3"> Люблю, якщо недалеко і ненадовго
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Ніч - це...</h3>
+                            <label>
+                            <input type="radio" name="city" value="0"> Відпочинок
+                            </label><br>
+                            <label>
+                            <input type="radio" name="city" value="1"> Небезбечний час
+                            </label><br>
+                            <label>
+                            <input type="radio" name="city" value="2"> Час доби
+                            </label><br>
+                            <label>
+                            <input type="radio" name="city" value="3"> Зцілення
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Якому кольору віддасте перевагу?</h3>
+                            <label>
+                            <input type="radio" name="hobby" value="0"> Чорний
+                            </label><br>
+                            <label>
+                            <input type="radio" name="hobby" value="1"> Зелений
+                            </label><br>
+                            <label>
+                            <input type="radio" name="hobby" value="2"> Фіолетовий
+                            </label><br>
+                            <label>
+                            <input type="radio" name="hobby" value="3"> Бежевий
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Ріка, гори чи ліс? Де вам комфортно?</h3>
+                            <label>
+                            <input type="radio" name="subject" value="0"> Ріка
+                            </label><br>
+                            <label>
+                            <input type="radio" name="subject" value="1"> Гори
+                            </label><br>
+                            <label>
+                            <input type="radio" name="subject" value="2"> Ліс
+                            </label><br>
+                            <label>
+                            <input type="radio" name="subject" value="3"> Віддаю перевагу місту
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Чи взяли б ви собі інше ім’я?</h3>
+                            <label>
+                            <input type="radio" name="entertainment" value="0"> Так
+                            </label><br>
+                            <label>
+                            <input type="radio" name="entertainment" value="1"> Ні
+                            </label><br>
+                            <label>
+                            <input type="radio" name="entertainment" value="2"> Ненадовго
+                            </label><br>
+                            <label>
+                            <input type="radio" name="entertainment" value="3"> Якщо б в цьому була необхідність
+                            </label>
+                        </div>
+
+                        <div class="testBtn"><input class="test_btn" type="button" value="Результат" onclick="showResult()"></div>
+                    </form>
+                </div>    
+            </div>
+        </main>
+    </div>
+<script src="js/test.js"></script>
+</body>
+</html>

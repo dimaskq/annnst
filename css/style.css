@@ -64,10 +64,12 @@ body{
   max-width: 500px;
   min-height: 100%;
   /* overflow: hidden; */
+
 }
 main{
   flex: 1 0 auto;
   text-align: center;
+  
 }
 
 /*===================Header===================*/
@@ -221,21 +223,58 @@ main{
   top: 0;
 }
 .about__top_img img{
-  max-width: 60%;
-}
-.about__top_img{
-  padding: 44% 0 0 0;
-  background: #111016;
-  margin: 0 0 -2px 0;
-}
-.about__top_img img{
-  margin: 0 0 -100px 0;
+  max-width: 100%;
+  margin: 0 0 -20px 0;
+  filter: drop-shadow(0 0 55px #ffffff);
+  position: relative;
+  z-index: 100;
+
 
 }
-.about__circle{
+
+.about__top_img{
+  padding: 20% 0 0 0;
   background: #111016;
-  height: 200px;
-  border-radius: 0 0 50% 50%;
+  /* margin: 0 0 -2% 0; */
+  position: relative;
+  /* border-radius: 0 0 50% 50%; */
+  border-radius: 0 0 200px 200px;
+  overflow: hidden;
+  text-align: left;
+  
+
+}
+.about__top{
+  position: relative;
+  
+}
+.img__card{
+  position: absolute;
+}
+.img__card1{
+  left: 30%;
+  width: 40%;
+  z-index: 3;
+  background: #000;
+
+}
+.img__card3{
+  z-index: 2;
+  right: 10%;
+  top: 3%;
+  width: 40%;
+
+  transform: rotate(190deg);
+}
+.img__card2{
+  top: 3%;
+  left: 10%;
+  transform: rotate(-190deg);
+  width: 40%;
+  z-index: 2;
+  overflow: hidden;
+
+
 }
 .about__top_info{
   margin: 15px 0 0 0;
@@ -916,9 +955,15 @@ border-bottom: none;
 .matrix__bottom_title{
   padding: 16px 0;
 }
-
+.matrix__info_item{
+  position: relative;
+  margin: 0 0 0 10px;
+}
 .matrix__info_item::before{
   content: "⬤";
+  position: absolute;
+  top: 3px;
+  left: -16px;
   font-size: 0.7rem;
   color: #000;
   padding: 0 8px 0 0;
@@ -960,4 +1005,250 @@ border-bottom: none;
 .matrix__container{
   position: relative;
   z-index: 10;
+}
+/* ==========================herbs========================= */
+.herbsWrapper{
+  background: #000;
+}
+.herbs{
+  background: #000;
+}
+.herbs__container{
+  position: relative;
+  z-index: 10;
+}
+.herbs__top{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 2px solid #B3BBBE;
+  padding: 0 0 16px 0;
+}
+.herbs__top_title{
+  color: #FFF;
+  font-family: 'Vetrino';
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-top: 64px;
+}
+.herbs__top_subtitle{
+  color: #FFF;
+  font-family: 'Vetrino';
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.herbs__top_info{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  padding: 0 32px;
+}
+.herbs__info_item{
+  color: #FFF;
+  font-family: 'FortuneC';
+  font-size: 1.125rem;
+  font-weight: 400;
+  position: relative;
+}
+.herbs__info_item::before{
+  content: "⬤";
+  position: absolute;
+  font-size: 0.7rem;
+  color: #fff;
+  left: -16px;
+  top: 3px;
+}
+
+.herbs__info_more{
+  color: #FFF;
+  font-family: 'FortuneC';
+  font-size: 1rem;
+  font-weight: 400;
+  background: #000;
+}
+.herbs__more{
+  display: none;
+}
+.herbs__info_itemMore{
+  padding: 8px 0 0 0;
+}
+.herbs__info_itemMore::before{
+  top: 11px;
+}
+.herbs__center{
+  padding: 16px 0 16px 0;
+  border-bottom: 2px solid #B3BBBE;
+}
+.herbs__bottom{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+  padding: 16px 0;
+  border-bottom: 2px solid #B3BBBE;
+
+}
+.herbs__bottom_text{
+  color: #FFF;
+  font-family: 'FortuneC';
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: 0 16px;
+}
+
+
+/*========================= test =========================== */
+.test{
+  background: #000;
+}
+.popup-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.result1{
+  display: none;
+}
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 80%;
+  text-align: center;
+}
+.test__info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #D9D9D9;
+  padding: 0 0 32px 0;
+}
+.test__title{
+  color: #ffffff;
+  font-family: 'Vetrino';
+  font-size: 1.375rem;
+  font-weight: 400;
+  padding: 64px 0 8px 0;
+}
+
+.test__subtitle_item{
+  color: #ffffff;
+  font-family: 'FortuneC';
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-align: left;
+  padding: 8px 16px 0 16px;
+}
+#quizForm{
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 0 0;
+}
+#quizForm h3{
+  color: #ffffff;
+  font-family: 'FortuneC';
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: 0 0 8px 0;
+}
+.quizForm_item{
+  border-bottom: 2px solid #D9D9D9;
+  padding: 16px 0;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 16px;
+  padding-right: 8px;
+}
+.testBtn{
+  text-align: center;
+  padding: 25px 0 70px 0;
+}
+.test_btn{
+  /* width: 80px; */
+  border-radius: 20px;
+  background: var(--colors-secondary-silver, linear-gradient(127deg, #E8E8E8 -64.8%, #C4C8CA -42.62%, #E8E8E8 -20.43%, #C9CCCE 1.75%, #E8E8E8 23.93%, #CFD1D2 46.11%, #E8E8E8 68.29%, #D3D4D5 90.48%, #E8E8E8 112.66%));
+  color: #000;
+  font-family: 'FortuneC';
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding: 7px 10px 10px 10px;
+}
+.result1{
+
+}
+.result__title{
+  color: #000;
+  font-family: 'Vetrino';
+  font-size: 1.375rem;
+  font-weight: 400;
+  padding: 8px 0;
+}
+.result__img{
+  width: 100%;
+}
+.result__info{
+  color: #000;
+  text-align: center;
+  font-family: 'FortuneC';
+  font-size: 1.125rem;
+  font-weight: 400;
+  padding: 8px 0;
+}
+.popup-container button{
+  background: #ffffff;
+}
+.popup__close{
+  text-align: right;
+}
+.test__header{
+  background: #000;
+  position: relative;
+}
+.header__back{
+  position: absolute;
+  z-index: 1000;
+  top: 16px;
+  left: 16px;
+}
+
+.tests__wrapper{
+  background: #000;
+  display: flex;
+  flex-direction: column;
+}
+.tests_main{
+  /* height: 100%; */
+}
+.tests__title{
+  padding: 50px 0 0 0;
+  color: #FFF;
+  font-family: 'Vetrino';
+  font-size: 1.375rem;
+  font-weight: 400;
+}
+.tests__list{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px 0 0 16px;
+}
+.tests__link{
+  color: #FFF;
+  font-family: 'FortuneC';
+  font-size: 1.25;
+  font-weight: 400;
+  text-decoration-line: underline;
 }

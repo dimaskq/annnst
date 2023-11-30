@@ -1,0 +1,18 @@
+<svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="dropdown">
+<path id="Mask" fill-rule="evenodd" clip-rule="evenodd" d="M7.35375 0.826302C7.75101 0.384749 8.44332 0.384748 8.84058 0.826301L9.39891 1.44689C9.74076 1.82685 9.74107 2.40343 9.39964 2.78376L3.81916 9L9.39964 15.2162C9.74107 15.5966 9.74076 16.1731 9.39891 16.5531L8.84058 17.1737C8.44332 17.6153 7.75101 17.6153 7.35375 17.1737L-3.93402e-07 9L7.35375 0.826302Z" fill="url(#paint0_linear_391_191)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_391_191" x1="18.0055" y1="-7.98214" x2="-8.43626" y2="2.97627" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8E8E8"/>
+<stop offset="0.125" stop-color="#C4C8CA"/>
+<stop offset="0.25" stop-color="#E8E8E8"/>
+<stop offset="0.375" stop-color="#C9CCCE"/>
+<stop offset="0.5" stop-color="#E8E8E8"/>
+<stop offset="0.625" stop-color="#CFD1D2"/>
+<stop offset="0.75" stop-color="#E8E8E8"/>
+<stop offset="0.875" stop-color="#D3D4D5"/>
+<stop offset="1" stop-color="#E8E8E8"/>
+</linearGradient>
+</defs>
+</svg>
