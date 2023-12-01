@@ -1230,7 +1230,7 @@ border-bottom: none;
   margin: 50px 0 0 0;
   color: #FFF;
   font-family: 'Vetrino';
-  font-size: 1.375rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 .tests_main{
@@ -1249,7 +1249,7 @@ border-bottom: none;
 .tests__link{
   color: #FFF;
   font-family: 'FortuneC';
-  font-size: 1.25;
+  font-size: 1.4rem;
   font-weight: 400;
   text-decoration-line: underline;
 }
@@ -1310,4 +1310,47 @@ border-bottom: none;
   position: absolute;
   top: 300px;
   left: 0;
+}
+.tests__container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.testssmallStar1{
+  width: 15%;
+  top: 20px;
+  left: 40px;
+}
+.testsGrey1{
+  width: 10%;
+  top: 15px;
+  right: 50px;
+}
+.testssmallStar2{
+  top: 125px;
+  right: 70px;
+}
+.testssun{
+  position: absolute;
+  top: 500px;
+  left: 0;
+}
+.tests{
+  height: 100%;
+}
+.tests__container{
+  height: 100%;
+}
+.testsGrey2{
+  top: 300px;
+  left: 40px;
+}
+.testssmallStar3{
+  top: 500px;
+  right: 100px;
+}
+.testsGrey3{
+  top: 287px;
+  right: 30px;
 }
