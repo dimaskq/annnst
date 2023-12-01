@@ -1364,4 +1364,5 @@ border-bottom: none;
 .herbs__container{
   position: relative;
   z-index: 100;
+  overflow: hidden;
 }
