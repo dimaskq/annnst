@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Чистота Вашої карми</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper test__wrapper">
+        <header class="header test__header"><a href="test.html" class="header__back"><img src="/img/tests/backsvg.svg"></a></header>
+        <main class="main tests_main">
+            <div class="test">
+                <div class="test__container">
+                    <div class="testMoon">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <img src="/img/bg/moon.svg" alt="bigStar" class="moon testMoon1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+                    </div>
+
+                    <div class="testMoon testMoon2">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1_2">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <!-- <img src="/img/bg/moon.svg" alt="bigStar" class="moon testMoon1"> -->
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar3">
+				        <img src="/img/bg/thin.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+                    </div>
+
+                    <div class="testMoon testMoon3">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1_2">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <!-- <img src="/img/bg/moon.svg" alt="bigStar" class="moon testMoon1"> -->
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar3">
+				        <img src="/img/bg/thin.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+                    </div>
+
+                    <div class="testMoon test2Moon3">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+				        <img src="/img/bg/sun.svg" alt="sun" class="sunimg testSun1">
+                    </div>
+                    
+                    <div class="test__info">
+                        <h2 class="test__title">Чистота Вашої карми</h2>
+                        <div class="test__subtitle">
+                            <p class="test__subtitle_item">Намагайтесь відповідати швидко, довго не роздумуючи.</p>
+                            <p class="test__subtitle_item">Ставитись до тесту серйозно або як до розваги - вирішувати Вам.</p>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="popup-container" id="popupContainer">
+                        <div class="popup-content" id="popupContent">
+                            <form class="popup__close" action="test.html" target="_blank">
+                                <button onclick="closePopup()"><img src="img/tests/close.svg"></button>
+                            </form>
+                        <p id="resultText"></p>
+                        </div>
+                    </div>
+
+                    <form id="quizForm">
+                        <div class="quizForm_item">
+
+                            <h3>Наскільки часто Вам доводиться спілкуватись з людьми, які вам не подобаються?</h3>
+                            <label>
+                            <input type="radio" name="question1" value="0"> Таких немає в моєму оточенні
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question1" value="1"> Періодично такі з’являються
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question1" value="2"> Дуже часто або майже завжди
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+                        
+                            <h3>Як часто Ви надаєте допомогу оточуючим?</h3>
+                            <label>
+                            <input type="radio" name="question2" value="0"> Намагаюсь допомагати всім і завджи
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question2" value="1"> Допомагаю, якщо є можливість і час
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question2" value="2"> Допомагаю тільки, якщо людина мені подобається
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+                        
+                            <h3>Чи допомагає Вам інтуїція?</h3>
+                            <label>
+                            <input type="radio" name="question3" value="0"> Так, постійно на неї спираюсь
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question3" value="1"> Рідко слухаю інтуїцію, але іноді вона мені допомагає
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question3" value="2"> Віддаю перевагу своєму розуму, бо передчуття мене завжди підводить
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Буває таке, що проблеми самі по собі ідуть з вашого життя?</h3>
+                            <label>
+                            <input type="radio" name="question4" value="0"> Так
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question4" value="1"> Тільки, якщо дійсно щось серйозне
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question4" value="2"> Ні
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>У Вас часто виникають конфлікти з незнайомими людьми?</h3>
+                            <label>
+                            <input type="radio" name="question5" value="0"> Ні
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question5" value="1"> Рідко
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question5" value="2"> Постійно
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Кого більше у Вашому житті - друзів чи ворогів?</h3>
+                            <label>
+                            <input type="radio" name="question6" value="0"> Друзів
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question6" value="1"> Порівну
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question6" value="2"> Ворогів
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Яке Ваше ставлення до пліток?</h3>
+                            <label>
+                            <input type="radio" name="question7" value="0"> Негативне
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question7" value="1"> Нейтральне
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question7" value="2"> Позитивне
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Ви вважаєте себе злопам’ятною людиною?</h3>
+                            <label>
+                            <input type="radio" name="question8" value="0"> Ні, постійно всіх прощаю і потім шкодую про це
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question8" value="1"> Зла не тримаю, але розриваю взаємини
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question8" value="2"> Так, завжди намагаюсь помститись і довго тримаю образу
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Чи часто ви прокидаєтесь у поганому настрої?</h3>
+                            <label>
+                            <input type="radio" name="question9" value="0"> Майже ніколи
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question9" value="1"> Іноді
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question9" value="2"> Дуже часто
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Чи можете Ви назвати себе щасливою людиною?</h3>
+                            <label>
+                                <input type="radio" name="question10" value="0"> Так
+                            </label><br>
+                            <label>
+                                <input type="radio" name="question10" value="1"> Не завжди
+                            </label><br>
+                            <label>
+                                <input type="radio" name="question10" value="2"> Ні
+                            </label>
+                        </div>
+                    </form>
+                        
+                      
+                        <div class="testBtn"><input class="test_btn" type="button" value="Результат" onclick="showResult()"></div>
+                    </form>
+                </div>    
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function showResult() {
+  var score = calculateScore();
+
+  if (score > 0) {
+    var resultText = "";
+
+    if (score >= 16) {
+      resultText = "<div><h2 class = 'result__title'>Забруднена карма</h2><img src = 'img/tests/ZabrudnenaKarma.png' class = 'result__img'></img><p class = 'result__info'>Карма не в найкращому стані, тому що шальки терезів зла переважують добрі. Через це у Вашому житті багато проблем і негативу. Рекомендую повністю переглянути свої життєві принципи і цінності. Памʼятайте, що у Вас є всі шанси стати щасливішим, якщо Ви почнете давати світу більше позитиву.</p></div>";
+      console.log(score);
+
+    } else if (score >= 9 && score <= 15) {
+      console.log(score);
+
+        resultText = "<div><h2 class = 'result__title'>Балансуєте на межі</h2><img src = 'img/tests/Balance.png' class = 'result__img'></img><p class = 'result__info'>Ваша карма балансує на межі. У житті, скоріше за все, відбувається багато хорошого, проте час від часу стаються несподівані конфлікти, сварки і біди. Вам потрібно більш зважено підходити до свого життя, робити більше добрих вчинків, щоб важелі терезів перейшли на світлу сторону. Кардинальних змін для очищення карми не потребується.</p></div>";
+    } else {
+      console.log(score);
+
+        resultText = "<div><h2 class = 'result__title'>Чиста карма</h2><img src = 'img/tests/ChistaKarma.png' class = 'result__img'></img><p class = 'result__info'>Безумовно, Ви можете робити помилки, які могли б затемнити карму, але в цілому - вона у повному порядку. Це значить, що Ви можете самі вибирати свій шлях у житті, а Всесвіт буде допомагати на цьому шляху до щастя. Продовжуйте вчиняти справедливо і будьте добрими до оточуючих, щоб не змінити чистоту карми.</p></div>";
+    }
+
+    document.getElementById("resultText").innerHTML = resultText;
+    document.getElementById("popupContainer").style.display = "flex";
+  }
+}
+
+function closePopup() {
+  document.getElementById("popupContainer").style.display = "none";
+}
+
+function calculateScore() {
+  var score = 0;
+  var inputs = document.querySelectorAll('input[type="radio"]:checked');
+
+  if (inputs.length === 10) {
+    inputs.forEach(function(input) {
+      score += parseInt(input.value);
+    });
+  } else {
+    alert("Будь ласка, виберіть відповідь на кожне питання!");
+    return 0;
+  }
+
+  return score;
+}
+
+      </script>
+    
+<!-- <script src="js/test.js"></script> -->
+</body>
+</html>

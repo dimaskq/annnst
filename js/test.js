@@ -1,5 +1,3 @@
-var result1 = document.createElement("div");
-  result1.innerHTML = "<h1>Привет!</h1>";
 
 function showResult() {
     var score = calculateScore();

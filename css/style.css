@@ -1267,7 +1267,6 @@ border-bottom: none;
 /*===================== bg========================== */
 .testMoon{
   position: absolute;
-  z-index: -;
   width: 100%;
 }
 .teast01SmallStar1{
@@ -1355,4 +1354,10 @@ border-bottom: none;
 .testsGrey3{
   top: 287px;
   right: 30px;
+}
+.test2Moon3{
+  top: 1300px;
+}
+.quizForm_item{
+  text-align: left;
 }
