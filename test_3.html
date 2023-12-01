@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Який колір Вашої аури</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper test__wrapper">
+        <header class="header test__header"><a href="test.html" class="header__back"><img src="/img/tests/backsvg.svg"></a></header>
+        <main class="main tests_main">
+            <div class="test">
+                <div class="test__container">
+                    <div class="testMoon">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <img src="/img/bg/moon.svg" alt="bigStar" class="moon testMoon1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+                    </div>
+
+                    <div class="testMoon testMoon2">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1_2">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <!-- <img src="/img/bg/moon.svg" alt="bigStar" class="moon testMoon1"> -->
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar3">
+				        <img src="/img/bg/thin.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+                    </div>
+
+                    <div class="testMoon testMoon3">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1_2">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <!-- <img src="/img/bg/moon.svg" alt="bigStar" class="moon testMoon1"> -->
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar3">
+				        <img src="/img/bg/thin.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+                    </div>
+
+                    <div class="testMoon test2Moon3">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar1">
+				        <img src="/img/bg/thin.svg" alt="smallStar" class="smallStar teast01SmallStar2">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar1">
+				        <img src="/img/bg/smallGreyStar.svg" alt="bigStarGrey" class="bigStarGrey testsBigGreyStar2">
+				        <img src="/img/bg/sun.svg" alt="sun" class="sunimg testSun1">
+                    </div>
+                    
+                    <div class="test__info">
+                        <h2 class="test__title">Який колір Вашої аури</h2>
+                        <div class="test__subtitle">
+                            <p class="test__subtitle_item">Намагайтесь відповідати швидко, довго не роздумуючи.</p>
+                            <p class="test__subtitle_item">Ставитись до тесту серйозно або як до розваги - вирішувати Вам.</p>
+                        </div>
+                    </div>
+                
+
+
+                    <div class="popup-container" id="popupContainer">
+                        <div class="popup-content" id="popupContent">
+                            <form class="popup__close" action="test.html" target="_blank">
+                                <button onclick="closePopup()"><img src="img/tests/close.svg"></button>
+                            </form>
+                        <p id="resultText"></p>
+                        </div>
+                    </div>
+
+                    <form id="quizForm">
+                        <div class="quizForm_item">
+
+                            <h3>Чи вважаєти Ви себе творчою людиною?</h3>
+                            <label>
+                            <input type="radio" name="question1" value="0"> Так
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question1" value="1"> Можливо
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question1" value="2"> Ні
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+                        
+                            <h3>Минуле - це...</h3>
+                            <label>
+                            <input type="radio" name="question2" value="0"> Досвід
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question2" value="1"> Певний період з життя
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question2" value="2"> Просто час
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+                        
+                            <h3>Чи важливий для Вас саморозвиток?</h3>
+                            <label>
+                            <input type="radio" name="question3" value="0"> Так
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question3" value="1"> Дивлячись у якій сфері
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question3" value="2"> Ні
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>У Вас бувають віщі сни?</h3>
+                            <label>
+                            <input type="radio" name="question4" value="0"> Ні
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question4" value="1"> Так
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question4" value="2"> Іноді
+                            </label>
+                        </div>
+                        
+                        <div class="quizForm_item">
+
+                            <h3>У Вас бувають видіння?</h3>
+                            <label>
+                            <input type="radio" name="question5" value="0"> Постійно
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question5" value="1"> Рідко
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question5" value="2"> Ніколи
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Чи складно Вам прощати людей?</h3>
+                            <label>
+                            <input type="radio" name="question6" value="0"> Так
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question6" value="1"> Тільки, якщо ситуація дуже серйозна
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question6" value="2"> Ні
+                            </label>
+                        </div>
+                        <div class="quizForm_item">
+
+                            <h3>Ви завжди кажете правду?</h3>
+                            <label>
+                            <input type="radio" name="question7" value="0"> Ні
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question7" value="1"> Залежно від ситуації
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question7" value="2"> Так
+                            </label>
+                        </div>
+
+                        <div class="quizForm_item">
+
+                            <h3>Ви любите мріяти?</h3>
+                            <label>
+                            <input type="radio" name="question8" value="0"> Ні
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question8" value="1"> Іноді
+                            </label><br>
+                            <label>
+                            <input type="radio" name="question8" value="2"> Так
+                            </label>
+                        </div>
+                    </form>
+                        
+                      
+                        <div class="testBtn"><input class="test_btn" type="button" value="Результат" onclick="showResult()"></div>
+                    </form>
+                </div>    
+            </div>
+        </main>
+    </div>
+
+    <script>
+        function showResult() {
+  var score = calculateScore();
+
+  if (score > 0) {
+    var resultText = "";
+
+    if (score >= 12) {
+      resultText = "<div><h2 class = 'result__title'>Синя</h2><img src = 'img/tests/blue.png' class = 'result__img'></img><p class = 'result__info'>Синій колір аури - ознака сильного розуму, що витає в хмарах. Він також відноситься до горлової чакри, яка керує правдою. Люди з синьою аурою дуже проникливі, вміють висловлювати свої внутрішні прозріння.</p></div>";
+      console.log(score);
+
+    } else if (score >= 10 && score <= 11) {
+      console.log(score);
+
+        resultText = "<div><h2 class = 'result__title'>Зелена</h2><img src = 'img/tests/green.png' class = 'result__img'></img><p class = 'result__info'>Зелений колір аури пов'язаний із серцевою чакрою. Любов до себе та інших, співчуття та прощення - риси характеру, властиві людині із зеленою аурою. Такі люди дуже люблять музику, природу та мають відкрите серце. Однак вони легко підпадають під вплив тих оточуючих, хто порушує їхні особисті межі.</p></div>";
+    } else if (score >= 5 && score <= 9) {
+      console.log(score);
+
+        resultText = "<div><h2 class = 'result__title'>Фіолетова</h2><img src = 'img/tests/fiol.png' class = 'result__img'></img><p class = 'result__info'>Фіолетовий колір аури пов'язаний із сильною інтуїцією, глибоким розумом та високою чутливістю. Ті, у кого є цей колір в аурі, можуть володіти екстрасенсорними, емпатичними та інтуїтивними здібностями.</p></div>";
+    }
+        else {
+      console.log(score);
+        resultText = "<div><h2 class = 'result__title'>Помаранчева</h2><img src = 'img/tests/orange.png' class = 'result__img'></img><p class = 'result__info'>Помаранчева аура пов'язана із сакральною чакрою, що відповідає за творчість. Помаранчевий може вказувати на поточну творчу енергію. Поява в аурі цього кольору може означати, що ти схильна вчитися на своїх помилках та отримувати максимальну користь із минулого досвіду.</p></div>";
+    }
+
+    document.getElementById("resultText").innerHTML = resultText;
+    document.getElementById("popupContainer").style.display = "flex";
+  }
+}
+
+function closePopup() {
+  document.getElementById("popupContainer").style.display = "none";
+}
+
+function calculateScore() {
+  var score = 0;
+  var inputs = document.querySelectorAll('input[type="radio"]:checked');
+
+  if (inputs.length === 8) {
+    inputs.forEach(function(input) {
+      score += parseInt(input.value);
+    });
+  } else {
+    alert("Будь ласка, виберіть відповідь на кожне питання!");
+    return 0;
+  }
+
+  return score;
+}
+
+      </script>
+    
+<!-- <script src="js/test.js"></script> -->
+</body>
+</html>
