@@ -640,19 +640,19 @@ margin: 1px 0;
   border-bottom: 1px solid #FFF;
 }
 .accordion2:after {
-  content: '⮟'; /* Unicode character for "plus" sign (+) */
+  content: 'вниз'; /* Unicode character for "plus" sign (+) */
   font-size: 18px;
   color: #777;
   float: right;
   color: #fff;
-  padding-right: 30px;
+  padding-right: 10px;
   flex-grow:1;
   text-align: end;
 
 }
 
 .active:after {
-  content: "⮝"; /* Unicode character for "minus" sign (-) */
+  content: "вверх"; /* Unicode character for "minus" sign (-) */
   color: #fff;
 }
 .acrd2{
