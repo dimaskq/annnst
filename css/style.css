@@ -256,18 +256,25 @@ main{
   width: 40%;
   z-index: 3;
   background: #000;
+  top: 3%;
+  border-radius: 15px;
 
 }
 .img__card3{
   z-index: 2;
   right: 10%;
-  top: 3%;
+  top: 6%;
   width: 40%;
 
   transform: rotate(190deg);
 }
+.img__cardMoon{
+  left: 43%;
+  top: 13%;
+  
+}
 .img__card2{
-  top: 3%;
+  top: 6%;
   left: 10%;
   transform: rotate(-190deg);
   width: 40%;
@@ -1365,4 +1372,11 @@ border-bottom: none;
   position: relative;
   z-index: 100;
   overflow: hidden;
+}
+.img__cardMoon{
+  position: absolute;
+  z-index: 3;
+}
+.img__card{
+
 }
