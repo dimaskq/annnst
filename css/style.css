@@ -930,7 +930,7 @@ border-bottom: none;
   padding: 0 30px;
 }
 .matrix__center_title{
-  padding: 16px 0 0 0;
+  padding: 20px 0 0 0;
 }
 .matrix__top_list{
   display: flex;
@@ -1045,6 +1045,7 @@ border-bottom: none;
   font-family: 'Vetrino';
   font-size: 1.25rem;
   font-weight: 400;
+  padding: 0 0 16px 0;
 }
 .herbs__top_info{
   display: flex;
@@ -1086,7 +1087,7 @@ border-bottom: none;
   top: 11px;
 }
 .herbs__center{
-  padding: 16px 0 16px 0;
+  padding: 20px 0 16px 0;
   border-bottom: 2px solid #B3BBBE;
 }
 .herbs__bottom{
