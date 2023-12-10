@@ -1275,6 +1275,7 @@ border-bottom: none;
 }
 /*===================== bg========================== */
 .testMoon{
+  z-index: -1;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1471,4 +1472,12 @@ border-bottom: none;
 .testsBigGreyStar22{
   top: 22%;
   left: 8%;
+}
+.teast01SmallStar29{
+  top: 3%;
+  left: 8%;
+}
+.testMoon15{
+  top: 40%;
+  right: 0;
 }
