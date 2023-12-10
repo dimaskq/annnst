@@ -1444,3 +1444,31 @@ border-bottom: none;
   top: 45%;
   left: 50%;
 }
+.testSun2{
+  position: absolute;
+  top: 5%;
+  width: 25%;
+  right: 0%;
+}
+.testsBigGreyStar4{
+  top: 6%;
+  left: 10%;
+}
+.testsBigGreyStar5{
+  top: 32%;
+  right: 20%;
+}
+.testMoon4{
+  width: 25%;
+  top: 26%;
+  right: 0;
+}
+.testMoon6{
+  top: 13%;
+  width: 35%;
+  right: 0;
+}
+.testsBigGreyStar22{
+  top: 22%;
+  left: 8%;
+}
